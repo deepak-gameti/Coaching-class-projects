@@ -185,7 +185,7 @@ hr {
     width: 23%;
     height: 100%;
     float: right;
-    margin-right: 30px;
+    margin-right: 36px;
 }
 
 .card4 {
@@ -248,7 +248,7 @@ hr {
     background-position: center;
 }
 
-img {
+.p3-img-li-styling {
     width: 20px;
     border: 1px solid black;
     border-radius: 50px;
@@ -257,7 +257,7 @@ img {
     color: black;
 }
 
-li {
+.p3-li-styling {
     list-style: none;
     display: inline-block;
     margin: 3px;
@@ -276,4 +276,93 @@ li {
     background-color: none;
     width: 130px;
     height: 30px;
+}
+
+.forth-pg {
+    background-color: rgb(49, 92, 101);
+    width: 100%;
+    height: 1200px;
+}
+
+
+.contentP4 {
+    border: 1px solid red;
+    width: 70%;
+    height: 980px;
+    float: left;
+    margin: 99px 0px 0px 300px;
+}
+
+.content-bx-p4 {
+    border: 1px solid lawngreen;
+    width: 100%;
+    height: 150px;
+    color: white;
+}
+
+.content-bx-card-p4 {
+    border: 1px solid lawngreen;
+    width: 100%;
+    height: 829px;
+}
+
+.p4-card1 {
+    border: 1px solid blue;
+    width: 32%;
+    height: 829px;
+    float: right;
+    background-color: white;
+    color: black;
+    text-align: center;
+    
+    
+}
+
+.card-contener{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    height: fit-content;
+    float: left;
+    margin-top: 40px;
+}
+
+.p4-card2 {
+    border: 1px solid blue;
+    width: 32%;
+    height: 829px;
+    float: right;
+    margin-right: 23px;
+    background-color: rgb(87, 182, 201);
+    color: white;
+}
+
+.p4-card3 {
+    border: 1px solid blue;
+    width: 32%;
+    height: 829px;
+    float: left;
+    background-color: white;
+    color: black;
+}
+
+.p4-imglogo-styling{
+    width: 90px;
+}
+
+.p4-card-btn{
+    margin: 20px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    background-color: rgb(87, 182, 201);
+    color: white;
+}
+
+.p4-li-styling{
+    list-style: none;
+    padding: 7px;
+}
+
+.p4-ul-styling{
+    
 }
