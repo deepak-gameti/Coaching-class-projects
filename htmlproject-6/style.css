@@ -286,7 +286,7 @@ hr {
 
 
 .contentP4 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 70%;
     height: 980px;
     float: left;
@@ -294,50 +294,70 @@ hr {
 }
 
 .content-bx-p4 {
-    border: 1px solid lawngreen;
+    /* border: 1px solid lawngreen; */
     width: 100%;
     height: 150px;
     color: white;
 }
 
 .content-bx-card-p4 {
-    border: 1px solid lawngreen;
+    /* border: 1px solid lawngreen; */
     width: 100%;
     height: 829px;
 }
 
 .p4-card1 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 32%;
     height: 829px;
     float: right;
     background-color: white;
     color: black;
     text-align: center;
-    
-    
+
+
 }
 
-.card-contener{
-    border: 1px solid rgb(0, 0, 0);
+.card-contener {
+    /* border: 1px solid rgb(0, 0, 0); */
     width: 100%;
-    height: fit-content;
+    height: 750px;
     float: left;
-    margin-top: 40px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.p4-prize-styling {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(87, 182, 201);
+    margin-bottom: -10px;
+}
+
+.p4-prize-card2-styling {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: -10px;
+}
+
+span {
+    font-size: 13px;
+    color: rgb(28, 145, 253);
+    margin-top: -12px;
 }
 
 .p4-card2 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 32%;
     height: 829px;
     float: right;
-    margin-right: 23px;
+    margin-right: 25px;
     background-color: rgb(87, 182, 201);
     color: white;
 }
 
 .p4-card3 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 32%;
     height: 829px;
     float: left;
@@ -345,11 +365,11 @@ hr {
     color: black;
 }
 
-.p4-imglogo-styling{
+.p4-imglogo-styling {
     width: 90px;
 }
 
-.p4-card-btn{
+.p4-card-btn {
     margin: 20px;
     width: 60%;
     height: 40px;
@@ -358,11 +378,200 @@ hr {
     color: white;
 }
 
-.p4-li-styling{
-    list-style: none;
-    padding: 7px;
+.p4-card-btn2 {
+    margin: 20px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    background-color: white;
+    color: black;
 }
 
-.p4-ul-styling{
-    
+.p4-card-btn2:hover,
+.p4-card-btn:hover {
+    border: 2px solid rgba(0, 0, 0, 0.575);
+}
+
+.p4-li-styling {
+    list-style: none;
+    padding: 12px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.p4-ul-styling {}
+
+.p4-li-imgtag-styling {
+    width: 20px;
+    padding: 3px 6px 0px 0px;
+    float: left;
+}
+
+.fifth-pg {
+    background-color: rgb(74, 124, 141);
+    width: 100%;
+    height: 1000px;
+}
+
+.content-p5 {
+    /* border: 1px solid red; */
+    width: 70%;
+    height: 700px;
+    float: left;
+    margin: 160px 0px 0px 300px;
+}
+
+.content-bx-p5 {
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 190px;
+    color: white;
+}
+
+.content-bx-card-p5 {
+    /* border: 1px solid yellow; */
+    width: 100%;
+    height: 510px;
+}
+
+.p5-card1 {
+    /* border: 1px solid black; */
+    width: 49%;
+    height: 100%;
+    float: right;
+    background-color: white;
+    color: black;
+    text-align: center;
+
+
+}
+
+.p5-card2 {
+    /* border: 1px solid black; */
+    width: 49%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+
+}
+
+.p5-DP-styling {
+    width: 130px;
+    border-radius: 100px;
+    margin-top: 55px;
+}
+
+.name {
+    margin: 0;
+}
+
+.p5-5star-png {
+    width: 150px;
+}
+
+.sixth-pg {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(49, 92, 101);
+}
+
+.content-p6 {
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 750px;
+    float: left;
+    margin: 245px 0px 0px 300px;
+}
+
+.content-bx-p6 {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.search-bx-btn {
+    margin: 0;
+    padding: 0;
+
+}
+
+.text-bx {
+    width: 400px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    border: none;
+}
+
+.btn-bx {
+    width: 100px;
+    height: 40px;
+    margin: -4px;
+    padding: 0px;
+    border: none;
+    background-color: rgb(116, 130, 255);
+    color: white;
+}
+
+.btn-bx:hover {
+    border: 2px solid rgba(0, 0, 0, 0.473);
+}
+
+.content-bx-links-p6 {
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 250px;
+}
+
+.content-bx-links-p6{
+
+}
+
+.links-ul-styling{
+    list-style: none;
+    padding: 5px;
+    float: left;
+    margin: 60px 40px 0px 0px;
+    font-size: 14px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.p6-linklist-styling{
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.contect-bx-p6{
+    float: right;
+    text-align: right;
+    margin: 40px;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.footer{
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 70px;
+    padding-right: 20px;
+}
+
+.footer-ptag-styling{
+    /* border: 1px solid; */
+    float: left;
+    margin: 25px 0px 0px 40px;
+}
+
+.footer-imglogo-styling{
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    float: right;
+    margin: 25px 15px 0px 0px;
+    padding: 2px;
 }
