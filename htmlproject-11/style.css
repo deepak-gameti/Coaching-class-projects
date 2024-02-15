@@ -1,0 +1,399 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Allura', cursive; */
+    margin: 0;
+    padding: 0;
+}
+
+/* this is home page styling */
+
+.homepg{
+    width: 100%;
+    height: 900px;
+    background-image: url(image/island.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+}
+
+.nav-bar{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 60px;
+}
+
+.logo{
+    /* border: 1px solid white; */
+    display: inline-block;
+    font-weight: 700;
+    margin: 19px 0 0 300px;
+}
+
+.tabs{
+    /* border: 1px solid white; */
+    float: right;
+    margin: 19px 300px 0 0 ;
+    font-weight: 3  00;
+}
+
+nav{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.home-content{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 350px;
+    margin: 210px 0 0 500px;
+}
+
+.home-h1{
+    font-family: SINGLE FIGHTER;
+    font-weight: 100;
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.home-p{
+    text-align: center;
+}
+
+.home-btn{
+    border: none;
+    width: 180px;
+    height: 30px;
+    border-radius: 40px;
+    margin: 40px 0 0 370px;
+    background-color: rgb(43, 46, 233);
+    color: white;
+}
+
+.home-btn:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* this is second page styling from here */
+
+.secondpg{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    text-align: center;
+    background-color: #13242A;
+    color: white;
+    width: 100%;    
+    height: 800px;
+}
+
+.table-h1 {
+    font-size: 50px;
+    margin: 0 0 50px 0;
+    float: none;
+
+}
+
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    aspect-ratio: 2/1;
+    font-size: 16px;
+
+}
+
+th,
+td {
+    border: 1px solid gray;
+    width: 100px;
+}
+
+td:nth-child(1) {
+    text-align: left;
+}
+
+th:nth-child(2) {
+    background-color: #FF9B00;
+    color: white;
+}
+
+th:nth-child(3) {
+    background-color: #BB3134;
+    color: white;
+}
+
+th:nth-child(4) {
+    background-color: #07B8C7;
+    color: white;
+}
+
+.orange {
+    color: #FF9B00;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.red {
+    color: #BB3134;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.blue {
+    color: #07B8C7;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.table-btn {
+    border: none;
+    border-radius: 20px;
+    width: 160px;
+    height: 40px;
+    background-color: #BB3134;
+    color: white;
+    font-size: 16px;
+}
+
+.table-btn:active {
+    background-color: black;
+    color: white;
+}
+
+/* this is page three styling from here  */
+
+.thirdpg{
+    background-color: #13242A;
+    width: 100%;
+    height: 900px;
+    color: white;
+
+}
+
+.third-content-area{
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin: 50px 0 0 800px;
+    text-align: center;
+}
+
+.third-h1{
+    /* border: 1px solid red; */
+    margin: 0 0 20px 0;
+    font-weight: 300;
+}
+
+.third-p{
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.third-card-contener{
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 650px;
+    margin: 60px 0 0 370px;
+}
+
+.card1{
+    /* border: 1px solid black; */
+    width: 31%;
+    height: 46%;
+    float: right;
+    margin: 17px 19px 0 0;
+
+    background-image: url(image/sentorini.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card2{
+    /* border: 1px solid black; */
+    width: 31%;
+    height: 46%;
+    float: right;
+    margin: 17px 19px 0 0;
+
+    background-image: url(image/varnazza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.card3{
+    /* border: 1px solid black; */
+    width: 31%;
+    height: 46%;
+    float: right;
+    margin: 17px 19px 0 0;
+
+    background-image: url(image/san\ francisco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.card2-1{
+    /* border: 1px solid black; */
+    width: 31%;
+    height: 46%;
+    float: right;
+    margin: 19px 19px 0 0;
+
+    background-image: url(image/navagio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.card2-2{
+    /* border: 1px solid black; */
+    width: 31%;
+    height: 46%;
+    float: right;
+    margin: 19px 19px 0 0;
+
+    background-image: url(image/ao\ nang.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.card2-3{
+    /* border: 1px solid black; */
+    width: 31%;
+    height: 46%;
+    float: right;
+    margin: 19px 19px 0 0;
+
+    background-image: url(image/phix2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.card-description{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 60px;
+    float: right;
+    margin: 239px 0 0 0;
+    background-color: white;
+    color: black;
+}
+
+.card-child{
+    color: rgb(65, 65, 65);
+    font-weight: 300;
+    font-size: 15px;
+    float: left;
+    margin: 19px 0 0 14px;
+}
+
+.svg{
+    width: 16px;
+    float: left;
+    margin: 19px 0 0 20px;
+}
+
+/* this is page four styling from here */
+
+.fourthpg{
+    width: 100%;
+    height: 500px;
+    color: black;
+}
+
+.fourthpg-bx-left{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin: 50px 0 0 70px;
+}
+
+.fourthpg-bx-right{
+    /* border: 1px solid black; */
+    width: 35%;
+    height: 400px;
+    float: right;
+    margin: 50px 70px 0 0 ;
+    
+}
+
+.bx-heading{
+    margin: 60px 0 60px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links-4thpg{
+    list-style: none;
+    padding: 9px;
+}
+
+.fourthpg-bx-center{
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 230px;
+    float: left;
+    margin: 50px 0 0 0 ;
+    padding: 170px 0 0 0;
+    
+}
+
+.right-p-text{
+    color: rgb(168, 168, 168);
+    margin: 0 0 20px 0;
+}
+
+.nav-styling{
+    margin: 30px 20px 0 0;
+}
+
+.lastpage-svg{
+    width: 20px;
+}
+
+.input-text{
+    border: none;
+    background-color: rgb(235, 235, 235);
+    width: 230px;
+    height: 34px;
+    border-radius: 3px;
+    margin: 0 10px 0 0;
+    padding: 0 0 0 10px;
+}
+
+.input-btn{
+    width: 90px;
+    height: 38px;
+    border: none;
+    background-color: rgb(38, 128, 212);
+    color: white;
+
+}
+
+.footerpg{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 250px;
+}
+
+.footer-img{
+    width: 100px;
+    margin: 0 0 0 900px;
+}
+
+.footer-nav-bx{
+    text-align: center;
+}
+
+.footer-p{
+    text-align: center;
+    margin: 15px 0 0 0;
+}
