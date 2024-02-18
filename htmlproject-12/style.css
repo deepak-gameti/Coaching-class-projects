@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.Home-page{
+    max-width: 100%;
+    height: 500px;
+    
+    background-image: url(image/varnazza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 40%; 
+    color: white;   
+}
+
+.opacity{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+
+.Home-nav{
+    max-width: 100%;
+    height: 80px;
+    /* background-color: red; */
+}
+
+.web-logo{
+    margin: 10px 0 0 180px;
+    float: left;
+}
+
+.Home-logo-image{
+    width: 60px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.logo-text{
+    margin: 17px 0 0 0;
+    float: left;
+    font-weight: 500;
+    font-size: 21px;
+    color: white;
+}
+
+.Home-tabs{
+    /* border: 1px solid greenyellow; */
+    float: right;
+    margin: 25px 180px 0 0;
+    font-weight: 400;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.tab{
+    display: inline-block;
+    padding: 0 20px 0 0;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.tab:hover, .logo-text:hover{
+    color: rgb(204, 204, 204);
+    cursor: pointer;
+}
+
+.nav-join-btn{
+    border: none;
+    width: 65px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.nav-join-btn:hover{
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.Home-content-bx{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 0;
+    
+}
+
+.Home-heading{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 70px 0 0 0;
+
+}
+
+.input-bx{
+    max-width: 600px;
+    height: 100px;
+    margin: 35px 0 0 0;
+    
+}
+
+.input-text-contener{
+    border: none;
+    width: 70%;
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+}
+
+.select-option{
+    border: none;
+    width: 20%;
+    height: 50px;
+    border-radius: 7px 0 0 7px;
+    float: left;
+    padding-left: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.input-submit-contener{
+    border: none;
+    width: 10%;
+    height: 50px;
+    float: right;
+    border-radius: 0 7px 7px 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.second-nav-contener{
+    width: 100vw;
+    height: 90px;
+
+   /* background-color: slategray; */
+}
+
+.tabs-bx{
+    float: left;
+    margin: 30px 0 0 750px;
+}
+
+.home-btn{
+    border: none;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 0.9em;
+}
+
+.second-nav-tabs{
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1em;
+}
+
+.third-photos-contener{
+    border: 1px solid red;
+    width: 100%;
+    height: 240vh;
+    
+}
+
+.photos-main-bx{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.photos-show-bx{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    /* border: 1px solid greenyellow; */
+    float: left;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    float: left;
+}
+
+.third-contener-select-option{
+    float: right;
+    width: 100px;
+    height: 35px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.card{
+    /* border: 1px solid red; */
+    width: 33%;
+    height: auto;
+    float: left;
+    margin: 0 7px 0 0;
+}
+
+
+.card-last{
+    /* border: 1px solid red; */
+    width: 33%;
+    height: max-content;
+    float: right;
+}
+
+
+
+img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.ftr-page{
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+    text-align: center;
+}
