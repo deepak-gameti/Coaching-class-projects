@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-bx{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.pink-bg{
+    width: 50vw;
+    height: 100vh;
+    background-color: #F57B41;
+    position: absolute;
+    left: 0;
+}
+
+.white-bg{
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+}
+
+.hero-main-bg{
+    width: 60vw;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.123);
+    overflow: hidden;
+}
+
+.header-bar{
+    width: 100%;
+    height: 8vh;
+    /* background-color: antiquewhite; */
+    position: absolute;
+    z-index: 100;
+}
+
+.logo{
+    position: absolute;
+    top: 40%;
+    left: 60px;
+}
+
+.logo-name{
+    font-family: "Audiowide", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+}
+
+.logo-image{
+    width: 70px;
+    vertical-align: text-bottom;
+}
+
+.tabs-bx{
+    position: absolute;
+    top: 40%;
+    right: 50px;
+
+}
+
+.tabs{
+    display: inline-block;
+    margin: 0 25px;
+    color: rgb(80, 80, 80); /* this is color we want to all text in this website*/
+    font-size: .8em;
+    font-weight: 600;
+
+}
+
+.tabs:hover{
+    color: #F57B41;
+    border-bottom: 2px solid #F57B41;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.clip-design-bx{
+    position: absolute;
+    background-color: rgb(241, 241, 241);
+    width: 550px;
+    height: 550px;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    z-index: 98;
+    top: -90px;
+    left: -90px;
+    rotate: 8deg;
+}
+
+.hero-image-bx{
+    position: absolute;
+    z-index: 99;
+    top: 10%;
+    left: 30%;
+    rotate: -30deg;
+    display: inline-block;
+    /* border: 1px solid; */
+
+}
+
+.shoe-image{
+
+}
+
+.text-content-bx{
+    /* border: 1px solid red; */
+    position: absolute;
+    z-index: 99;
+    width: 20vw;
+    height: 55%;
+    bottom: 0;
+    left: 60px;
+}
+
+.product-head{
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Audiowide", sans-serif;   
+}
+
+.product-details{
+    position: absolute;
+    top: 20%;
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.btn{
+    border: none;
+    width: 110px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #F57B41 40%, white 130%);
+    color: white;
+    font-size: .8em;
+    position: absolute;
+    top: 40%;
+    border-radius: 2px;
+    box-shadow: 0px 8px 10px 1px rgb(161, 161, 161) ;
+    cursor: pointer;
+    transition: ease-in-out 50ms;
+}
+
+.btn:hover{
+    /* border: 2px double #F57B41; */
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.247) inset;
+    letter-spacing: 1px;
+}
+
+.btn:active{
+    border: 2px solid black;
+}
+
+.social-links-bx{
+    position: absolute;
+    bottom: 15%;
+
+}
+
+.links-tab{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px solid #F57B41;
+    border-radius: 100px;
+}
+
+.fa-brands{
+    color: #F57B41;
+    position: relative;
+    top: 2px;
+    left: 7px;
+}
+
+/* -------------------------------------------------- */
+
+
+.size-selection-bx{
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 60px;
+    bottom: 120px;
+    z-index: 99;
+}
+
+label{
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.range-bar{
+    accent-color: #F57B41;
+    width: 200px;   
+}
+
+.detail-list{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8em;
+    color: rgb(80, 80, 80);
+}
+
