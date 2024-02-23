@@ -6,7 +6,7 @@
 }
 
 .Home-page{
-    max-width: 100%;
+    /* max-width: 100%; */
     height: 500px;
     
     background-image: url(image/varnazza.jpg);
@@ -24,7 +24,7 @@
 
 
 .Home-nav{
-    max-width: 100%;
+    /* max-width: 100%; */
     height: 80px;
     /* background-color: red; */
 }
@@ -136,7 +136,7 @@ a:link{
 }
 
 .second-nav-contener{
-    width: 100vw;
+    /* width: 100vw; */
     height: 90px;
 
    /* background-color: slategray; */
