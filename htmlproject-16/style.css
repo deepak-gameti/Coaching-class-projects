@@ -1,92 +1,73 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "arial";
+  font-weight: 400;
   
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+}
+
+.main {
+  height: 100vh;
+  background-color: rgb(208, 167, 255);
+
+  display: grid;
+  gap: 1rem;
+  text-align: center;
+  padding: 5rem;
+  grid-template-areas: "one two four five"
+                      "three three four six";
+}
+
+.grid-child {
+  background-color: rgb(101, 255, 170);
+  padding: 2em;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: transform .2s;
+}
+
+
+.grid-child:hover{
+  transform: scale(1.02);
+}
+
+@media (max-width: 800px) {
+  .main {
+    grid-template-areas: "one"
+  "two"
+  "three"
+  "four"
+  "five"
+  "six";
   }
-  
-  .header {
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  
-  .header h1 {
-    color: #333;
-    font-size: 36px;
-    margin: 0;
-    padding: 20px 0;
-  }
-  
-  .header p {
-    color: #666;
-    font-size: 18px;
-    margin: 0;
-    padding-bottom: 20px;
-  }
-  
-  .cta {
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  
-  .cta button {
-    padding: 15px 30px;
-    font-size: 20px;
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .cta button:hover {
-    background-color: #45a049;
-  }
-  
-  .features {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 50px;
-  }
-  
-  .feature {
-    width: 30%;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .feature h2 {
-    color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .feature p {
-    color: #666;
-    font-size: 16px;
-    margin: 0;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .features {
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .feature {
-      width: 80%;
-    }
-  }
+}
+
+
+.bx-1 {
+  grid-area: one;
+}
+
+.bx-2 {
+  grid-area: two;
+}
+
+.bx-3 {
+  grid-area: three;
+}
+
+.bx-4 {
+  grid-area: four;
+}
+
+.bx-5 {
+  grid-area: five;
+
+}
+
+.bx-6 {
+  grid-area: six;
+}

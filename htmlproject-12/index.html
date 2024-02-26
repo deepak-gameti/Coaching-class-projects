@@ -18,30 +18,22 @@
     <div class="Home-page">
 
         <div class="opacity">
-            <div class="Home-nav"> 
+            <!-- nab-bar -->
+            <div class="Home-nav">
+                <!-- web-logo -->
                 <div class="web-logo">
-                    <a href="https://www.google.com" target="_blank"><img src="svg/Pexel-logo.svg" alt="this is logo"
-                            class="Home-logo-image">
-                        <p class="logo-text">Pexels</p>
-                    </a>
+                    <img src="svg/Pexel-logo.svg" class="logo-svg">
+                    <p class="logo-txt">Pexel</p>
                 </div>
-
+                <!-- tabs -->
                 <div class="Home-tabs">
-                    <a href="#">
-                        <nav class="tab">Explore</nav>
-                    </a>
-                    <a href="#">
-                        <nav class="tab">License</nav>
-                    </a>
-                    <a href="#">
-                        <nav class="tab">Upload</nav>
-                    </a>
-                    <a href="#">
-                        <nav class="tab">Menu</nav>
-                    </a>
-                    <nav class="tab"><button class="nav-join-btn">Join</button></nav>
+                    <nav class="tab">Explore</nav>
+                    <nav class="tab">License</nav>
+                    <nav class="tab">Upload</nav>
+                    <nav class="tab">Menu</nav>
                 </div>
             </div>
+            <!-- ------------------------------------------------------------------------------------- -->
 
             <div class="Home-content-bx">
                 <h1 class="Home-heading">The best free stock photos, royaly free images & videos shared by creators.
@@ -56,12 +48,11 @@
                     <input type="button" value="🔍" class="input-submit-contener">
                 </div>
 
-                <p>Trending: beach sunset,ai,stress,cow,digital</p>
+                <p class="sug-keywords">Trending: beach sunset,ai,stress,cow,digital</p>
             </div>
-
         </div>
     </div>
-
+<!-- --------------second page starts from here------------------- -->
     <div class="second-nav-contener">
         <div class="tabs-bx">
             <nav class="second-nav-tabs"><button class="home-btn">Home</button></nav>
@@ -70,16 +61,17 @@
             <nav class="second-nav-tabs">Challenge</nav>
         </div>
     </div>
-
+<!-- ------------------third page starts from here=---------------------- -->
     <div class="third-photos-contener">
         <div class="photos-main-bx">
+            <div class="gallery-header">
             <h2>Free Stock Photos</h2>
 
             <select class="third-contener-select-option">
                 <option value="Trending" class="option-styling">Trending</option>
                 <option value="New" class="option-styling">New</option>
             </select>
-
+        </div>
             <div class="photos-show-bx">
                 <div class="card">
                     <img src="image/san francisco.jpg">
@@ -87,7 +79,7 @@
                 <div class="card">
                     <img src="image/Aperson.jpg">
                 </div>
-                <div class="card-last">
+                <div class="card">
                     <img src="image/humans.jpg">
                 </div>
                 <div class="card">
@@ -96,7 +88,7 @@
                 <div class="card">
                     <img src="image/sentorini.jpg">
                 </div>
-                <div class="card-last">
+                <div class="card">
                     <img src="image/the-poll.jpg">
                 </div>
                 <div class="card">
@@ -105,15 +97,17 @@
                 <div class="card">
                     <img src="image/twoPerson.jpg">
                 </div>
-                <div class="card-last">
+                <div class="card">
                     <img src="image/varnazza.jpg">
                 </div>
-                
+
             </div>
         </div>
     </div>
 
-    <footer class="ftr-page"><p>Copyright &copy; All Rights Reserved by deepak 2024</p></footer>
+    <footer class="ftr-page">
+        <p>Copyright &copy; All Rights Reserved by deepak 2024</p>
+    </footer>
 
     <!-- <button onclick="window.print()">print</button> -->
 </body>

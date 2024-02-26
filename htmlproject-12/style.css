@@ -1,119 +1,94 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
-.Home-page{
+.Home-page {
     /* max-width: 100%; */
+    /* background-color: red; */
     height: 500px;
-    
+
     background-image: url(image/varnazza.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0% 40%; 
-    color: white;   
+    background-position: 0% 40%;
+    color: white;
 }
 
-.opacity{
+.opacity {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.486);
 }
 
+/* ---------------------NAV BAR---------------------------- */
 
-.Home-nav{
-    /* max-width: 100%; */
-    height: 80px;
-    /* background-color: red; */
+.Home-nav {
+    /* border: 1px solid red; */
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
 }
 
-.web-logo{
-    margin: 10px 0 0 180px;
-    float: left;
+/* -------------------NAV LOGO DESIGN------------------------ */
+.web-logo {
+    width: 4rem;
+    display: flex;
 }
 
-.Home-logo-image{
-    width: 60px;
-    float: left;
-    margin: 0 10px 0 0;
+.logo-svg {
+    width: 100%;
 }
 
-.logo-text{
-    margin: 17px 0 0 0;
-    float: left;
+.logo-txt {
+    align-self: center;
+    font-size: 1.5em;
     font-weight: 500;
-    font-size: 21px;
-    color: white;
 }
 
-.Home-tabs{
-    /* border: 1px solid greenyellow; */
-    float: right;
-    margin: 25px 180px 0 0;
-    font-weight: 400;
-}
+/* ------------------------NAV TABS DESIGN------------------------ */
 
-a:link{
-    text-decoration: none;
-}
-
-.tab{
+.Home-tabs {
     display: inline-block;
-    padding: 0 20px 0 0;
-    color: white;
-    /* border: 1px solid black; */
 }
 
-.tab:hover, .logo-text:hover{
-    color: rgb(204, 204, 204);
-    cursor: pointer;
-}
-
-.nav-join-btn{
-    border: none;
-    width: 65px;
-    height: 50px;
-    border-radius: 5px;
+.tab {
+    display: inline;
+    margin: 0 10px;
     font-weight: 500;
 }
 
-.nav-join-btn:hover{
-    border: 1px solid grey;
-    cursor: pointer;
+/* ----------------------------------------- */
+
+.Home-content-bx {
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
 }
 
-.Home-content-bx{
-    max-width: 600px;
-    margin: auto;
-    margin-top: 0;
-    
-}
-
-.Home-heading{
+.Home-heading {
+    align-self: center;
+    width: 600px;
+    /* border: 1px solid black; */
     font-size: 30px;
-    font-weight: 300;
-    margin: 70px 0 0 0;
+    font-weight: 600;
 
 }
 
-.input-bx{
-    max-width: 600px;
+/* -----this is input box start from here-------------- */
+.input-bx {
+    align-self: center;
+    width: 600px;
     height: 100px;
-    margin: 35px 0 0 0;
-    
+    margin-top: 3rem;
 }
 
-.input-text-contener{
-    border: none;
-    width: 70%;
-    height: 50px;
-    float: left;
-    padding-left: 20px;
-}
-
-.select-option{
+.select-option {
     border: none;
     width: 20%;
     height: 50px;
@@ -125,7 +100,15 @@ a:link{
     font-size: 15px;
 }
 
-.input-submit-contener{
+.input-text-contener {
+    border: none;
+    width: 70%;
+    height: 50px;
+    float: left;
+    padding-left: 20px;
+}
+
+.input-submit-contener {
     border: none;
     width: 10%;
     height: 50px;
@@ -135,64 +118,80 @@ a:link{
     cursor: pointer;
 }
 
-.second-nav-contener{
-    /* width: 100vw; */
+.sug-keywords {
+    width: 600px;
+    /* border: 1px solid red; */
+    align-self: center;
+    font-size: 1em;
+    font-weight: 600;
+
+}
+
+/* ----------------second page starts from here------------------ */
+
+.second-nav-contener {
     height: 90px;
-
-   /* background-color: slategray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.tabs-bx{
-    float: left;
-    margin: 30px 0 0 750px;
+.tabs-bx {
+    /* border: 2px solid red; */
+    display: inline;
 }
 
-.home-btn{
+.home-btn {
     border: none;
-    width: 80px;
-    height: 40px;
-    border-radius: 20px;
+    width: 90px;
+    height: 50px;
+    border-radius: 50px;
     background-color: black;
     color: white;
-    font-size: 0.9em;
-}
-
-.second-nav-tabs{
-    display: inline-block;
-    margin: 0 15px;
     font-size: 1em;
+    font-weight: 600;
 }
 
-.third-photos-contener{
-    border: 1px solid red;
-    width: 100%;
-    height: 240vh;
-    
+.second-nav-tabs {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(99, 97, 97);
 }
 
-.photos-main-bx{
+/* -----------------third container starts from here------------------ */
+
+.third-photos-contener {
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    height: 300vh;
+
+}
+
+.photos-main-bx {
     width: 80%;
     height: auto;
     margin: auto;
     /* border: 1px solid black; */
 }
 
-.photos-show-bx{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    /* border: 1px solid greenyellow; */
-    float: left;
+.gallery-header {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
 }
 
-h2{
+h2 {
     font-weight: 400;
     font-size: 20px;
-    float: left;
+
 }
 
-.third-contener-select-option{
-    float: right;
+
+.third-contener-select-option {
     width: 100px;
     height: 35px;
     border: 1px solid rgb(168, 168, 168);
@@ -201,31 +200,37 @@ h2{
     font-size: 15px;
 }
 
+/* --------------------main gallary starts from here-------------- */
 
-.card{
-    /* border: 1px solid red; */
-    width: 33%;
-    height: auto;
-    float: left;
-    margin: 0 7px 0 0;
+.photos-show-bx {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: ;
+    grid-auto-rows: ;
+    gap: 1rem;
+    
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
 }
 
 
-.card-last{
-    /* border: 1px solid red; */
-    width: 33%;
-    height: max-content;
-    float: right;
+.card {
+    border: 1px solid red;
+    /* border-radius: 1rem; */
+    overflow: hidden;
+    
 }
 
-
-
-img{
+.card>img {
     width: 100%;
-    /* height: 100%; */
+    
 }
 
-.ftr-page{
+.ftr-page {
     width: 100%;
     height: 50px;
     border: 1px solid red;
