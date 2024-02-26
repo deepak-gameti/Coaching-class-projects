@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.header-bx{
+    height: 10vh;
+    background-color: blue;
+}
+
+.containt-area{
+    /* border: 1px solid black; */
+    height: calc(100vh - 10vh - 20vh);
+    /* background-color: rgb(228, 228, 228); */
+
+    display: flex;
+}
+
+.aside-bx{
+    height: 100%;
+    width: 30%;
+    background-color: gray;
+}
+
+.article-bx{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(82, 82, 82);
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.img-bx{
+    border: 1px solid black;
+    height: 60%;
+    width: 30%;
+    background-color: bisque;
+}
+
+.footer-bx{
+    height: 20vh;
+    background-color: blue;
+}
