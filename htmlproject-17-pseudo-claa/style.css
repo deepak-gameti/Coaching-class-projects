@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.main{
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main1{
+  background-color: rgb(0, 0, 0);
+}
+
+.main:target{
+  background-color: black;
+}
+
+
+div > a{
+  font-size: 1.5rem;
+  background-color:  rgb(81, 136, 255);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+div > a:visited{
+  color: rgb(255, 136, 0);
+}
+
+div > a:link{
+  text-decoration: none;
+  color: white;
+}
+
+.btn{
+  border: none;
+  width: 15rem;
+  height: 5rem;
+  background-color: rgb(81, 136, 255);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: ease-in .2s ;
+}
+
+.btn:hover{
+  background-color: rgb(0, 65, 206);
+  color: rgb(255, 255, 255);
+}
+
+.btn:active{
+  color: gray;
+  background-color: antiquewhite;
+}
