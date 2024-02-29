@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+
+}
+
+.main {
+  /* height: 800vh; */
+  background-color: rgb(255, 255, 255);
+  padding: 0 8rem;
+  color: black;
+  
+}
+
+.main>* {
+  height: 100vh;
+  border-bottom: 2px solid black;
+}
+
+.header-1 {
+  /* background-color: aqua; */
+  height: 8vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* -------------logostyling------------ */
+.web-logo {
+  /* border: 1px solid; */
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+span:only-child {
+  color: rgb(99, 71, 253);
+}
+
+/* ---------searchbarstyling-------------- */
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input:first-child {
+  border: none;
+  height: 2.5rem;
+  width: 40rem;
+  padding-left: 2rem;
+  border-radius: .8rem 0 0 .8rem;
+  background-color: aliceblue;
+}
+
+.search-bar button:last-child {
+  border: none;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  width: 3rem;
+  border-radius: 0 .8rem .8rem 0;
+  background-color: aliceblue;
+}
+
+.header-1-tabs {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 13rem;
+  height: 2.5rem;
+}
+
+.header-1-tabs > .tab {
+  font-size: 1.1rem;
+}
+
+.header-1-tabs button:last-child{
+  background-color: rgb(99, 71, 253);
+  width: 2.4rem;
+  height: 2.4rem;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: .3rem;
+}
+
+/* ----------------header-2 styling starts from here------------------ */
+
+.header-2{
+  /* background-color: aqua; */
+  height: 8vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.menu-tab{
+  margin: 0 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;  
+  padding-bottom: .5rem;
+}
+
+.menu-tab:hover{
+  border-bottom: 2px solid rgb(99, 71, 253);
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+/* -----------home page content box styligng-------------- */
+
+.home-page-content-bx{
+  /* border: 1px solid black; */
+  height: calc(100vh - 8vh - 8vh - 8vh);
+  border-radius: 2rem;
+  background-color: aliceblue;
+  padding: 4rem;
+  display: flex;
+  overflow: hidden;
+  
+  position: relative;
+}
+
+.left-bx{
+  width: 40%;
+}
+
+.text-area{
+  /* border: 1px solid; */
+  margin: 4rem 0;
+}
+.text-area > h1:first-child{
+  font-size: 3rem;
+}
+.text-area p:last-child{
+  color: gray;
+  font-size: .8rem;
+}
+
+/* ------------------------- */
+.review-bx{
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0;
+}
+.review-bx nav{
+  text-align: center;
+}
+.review-bx nav h2:first-child{
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.review-bx nav p:last-child{
+  font-size: .8rem;
+  font-weight: 600;
+}
+/* ---------------------- */
+
+.button-bx{
+  /* border: 1px solid black; */
+  margin: 4rem 0;
+}
+
+.btn{
+  border: none;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 3rem;
+  background: linear-gradient(45deg, black, rgb(99, 71, 253));
+  color: white;
+  font-size: 1rem;
+}
+
+.trans-btn{
+  background: transparent;
+  color: black;
+  font-weight: 500;
+}
+
+.right-bx{
+  /* background-image: url(image/myphoto.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; */
+
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  /* border: 1px solid black; */
+  position: absolute;
+  right: -5rem;
+  bottom: -10rem;
+
+}
+
+.image-styling{
+  width: 55%;
+  /* border: 1px solid; */
+  position: absolute;
+  bottom: 10rem;
+  right: 20rem;
+
+}
+
+.clip-shape{
+  height: 50rem;
+  width: 50rem;
+  /* border: 1px sol40; */
+  background-color: rgba(202, 229, 255, 0.336);
+  clip-path: circle(50% at 50% 50% );
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+
+  position: relative;
+} 
