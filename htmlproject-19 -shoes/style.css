@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  word-wrap: break-word;
+}
+
+:root {
+  --light-Color: #f8f9fa;
+  --dark-Orange: #ff7d1a;
+  --light-Orange: #ffede0;
+  --one-Third-Black: #000000bf;
+  --dark-Blue: #1d2025;
+  --light-Gray: #b6bcc8;
+  --dark-Gray: #68707d;
+  --light-Blue: #f2f2fa;
+}
+
+.main{
+  background-color: var(--light-Color);
+}
+
+.fix-width{
+  width: 1520px;
+  margin: auto;
+}
+
+.header-bx{
+  height: 8rem;
+  border-bottom: 1px solid gray;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bx .tabs-container{
+  display: flex;
+  /* border: 1px solid red; */
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.header-bx .tabs-container nav{
+  margin: 1rem;
+  color: var(--dark-Gray);
+}
+
+.header-bx .tabs-container a:link{
+  text-decoration: none;
+}
+
+.header-bx .profile-cart-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100px;
+  height: 56px;
+}
+
+.header-bx .profile-cart-container img:nth-child(2){
+  width: 50px;
+}
+
+/* ==-------------header done here----------== */
+
+
+.content-bx{
+  height: calc(1000px - 8rem);
+  display: flex;
+}
+
+.content-bx .product-img-container{
+  /* border: 1px solid red; */
+  width: 50%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-bx .product-img-container .img-display{
+  width: 500px;
+  height: 500px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.content-bx .product-img-container .img-display img{
+  width: 100%;
+}
+
+
+.content-bx .img-thumbnails span img{
+  width: 6rem;
+  border-radius: .5rem;
+  margin: 1.5rem .5rem 0 .5rem;
+}
+
+.content-bx .product-info-container{
+  /* border: 1px solid red; */
+  width: calc(100% - 50%);
+  height: auto;
+  position: relative;
+}
+
+.content-bx .product-info-container .text-container{
+  position: absolute;
+  top: 20%;
+}
+
+.content-bx .product-info-container .small-text{
+  margin-bottom: -1rem;
+
+  color: var(--dark-Orange);
+  font-size: .8rem;
+  font-weight: 800;
+  letter-spacing: .9px;
+}
+
+.content-bx .product-info-container h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.content-bx .product-info-container p{
+  color: var(--dark-Gray);
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.content-bx .product-info-container .prise-bx{
+  /* border: 1px solid red; */
+  width: max-content;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: .5rem;
+  column-gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.content-bx .product-info-container .prise-bx .rate{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.content-bx .product-info-container .prise-bx span{
+  background-color: var(--light-Orange);
+  color: var(--dark-Orange);
+  border-radius: .5rem;
+  padding: 0 .5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-bx .product-info-container .prise-bx .realrate{
+  color: var(--dark-Gray);
+  text-decoration: line-through;
+  font-size: 1rem;
+}
+
+
+.content-bx .product-info-container .button-bx{
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.content-bx .product-info-container .button-bx .unit-bx{
+  width: 150px;
+  height: 50px;
+  padding: 0 1rem;
+  border-radius: .5rem;
+  background-color: var(--light-Blue);
+
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-bx .product-info-container .button-bx .unit-bx span{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.content-bx .product-info-container .button-bx .cart-btn{
+  margin-left: 2rem;
+  border: none;
+  border-radius: .5rem;
+  box-shadow: 0 0 10px 0px var(--dark-Orange);
+  width: 400px;
+  height: 50px;
+  background-color: var(--dark-Orange);
+  color: var(--light-Color);
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+.content-bx .product-info-container .button-bx .cart-btn img{
+  margin-right: 1rem;
+}
+
+
+
+@media (max-width:430px) {
+  .content-bx{
+    flex-direction: column;
+  }
+
+.product-img-container{
+  width: 100%;
+}
+
+  .product-info-container{
+    margin-top: 3rem;
+    text-align: center;
+    padding: 0 5rem ;
+    width: 100%;
+  }
+}
