@@ -212,6 +212,10 @@
 
 
 @media (max-width:430px) {
+  .header-bx{
+    width: 100%;
+  }
+
   .content-bx{
     flex-direction: column;
   }
