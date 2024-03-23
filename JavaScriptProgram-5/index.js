@@ -16,16 +16,30 @@ const realPrise = Array(350, 475, 600, 750, 220);
 
 
 /* for-of  loop*/
-let x;
-for (x of realPrise) {
+// let x;
+// for (x of realPrise) {
 
-    let off = x * 20 / 100;
-    x -= off;
+//     let off = x * 20 / 100;
+//     x -= off;
 
-    console.log(x)
-}
+//     console.log(x)
+// }
 
-console.log(realPrise);
+// console.log(realPrise);
+
+
+
+
+
+/* for-in loop*/
+// for (let x in realPrise) {
+//     let off = realPrise[x] * 20 / 100;
+//     realPrise[x] -= off;
+//     // console.log(x)
+// }
+// console.log(realPrise);
+
+
 
 
 
@@ -40,6 +54,8 @@ console.log(realPrise);
 // console.log(realPrise)
 
 
+
+
 /* do-while loop*/
 // let i = 0;
 // do{
@@ -50,7 +66,6 @@ console.log(realPrise);
 // }
 // while(i < realPrise.length);
 // console.log(realPrise);
-
 
 
 
