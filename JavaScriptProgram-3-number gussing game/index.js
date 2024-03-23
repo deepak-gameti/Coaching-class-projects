@@ -1,14 +1,9 @@
 //programm for number gussing game in javascript 
 
-let Num = 20;
-let gusse = Number.parseInt(prompt('Gusse number'));
+let mainNum = 12;
+let gusseNum = prompt('gusse the right number for win')
 
-    if (Num === gusse) {
-        console.log('win')
-    }
-    else if (Num !== gusse) {
-        console.log('lose')
-    }
-    else {
-        console.log('enter valid number here')
-    }
+while(mainNum != gusseNum){
+    gusseNum = prompt('wrong number try again')
+}
+console.log('yey! Congrats you win')

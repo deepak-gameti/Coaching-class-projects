@@ -15,17 +15,17 @@
 
 //programm for calculate sum of odd number is given between
 
-// let startNum = 1
-// let endNum = 10
-// let baseNum = 0;
+let startNum = 1
+let endNum = 10
+let baseNum = 0;
 
-// for(startNum; startNum <= endNum; startNum++){
-//     if(startNum % 2 !== 0){
-//         // console.log("startNum", startNum)
-//         baseNum += startNum;
-//     }
-// }
-// console.log(baseNum);
+for(startNum; startNum <= endNum; startNum++){
+    if(startNum % 2 !== 0){
+        // console.log("startNum", startNum)
+        baseNum += startNum;
+    }
+}
+console.log(baseNum);
 
 
 // ------------------------------------------------------------------
