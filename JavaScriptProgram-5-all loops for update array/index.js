@@ -6,10 +6,9 @@ const realPrise = Array(350, 475, 600, 750, 220);
 // let i = 0;
 // for (i; i < realPrise.length; i++) {
 //     let off = realPrise[i] * 20 / 100;
-
 //     realPrise[i] -= off;
-
 // }
+
 // console.log(realPrise);
 
 
